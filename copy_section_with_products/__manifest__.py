@@ -12,7 +12,7 @@
     'website': "https://www.cloudmen.ae",
     "license": "OPL-1",
     'category': 'sales',
-    'version': '0.1',
+    'version': '0.2',
     'module_type': 'official',
     'depends': ['base','sale','sale_renting','account'],
     'contributors': "Youssef Mohamed <yousef@cloudmen.com>",
@@ -25,5 +25,6 @@
             'copy_section_with_products/static/src/xml/section_and_note_fields_backend.xml',
         ],
     },
+    'images': ['static/description/banner.png'],
 
 }
