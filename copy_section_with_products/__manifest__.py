@@ -25,6 +25,6 @@
             'copy_section_with_products/static/src/xml/section_and_note_fields_backend.xml',
         ],
     },
-    'images': ['static/description/icon.jpg'],
+    'images': ['static/description/banner.png'],
 
 }
