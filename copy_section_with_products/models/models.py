@@ -49,4 +49,10 @@ class SalesOrder(models.Model):
                     })]
                 })
                 max_sequence += 1
+            if order.is_rental_order:
+                for rent_line in order.order_line:
+                    if rent_line.display_type != 'line_section':
+                        rent_line.sudo().write({
+                            'is_rental': True,
+                        })
             return order
